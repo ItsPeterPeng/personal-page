@@ -447,6 +447,19 @@ html[data-theme="dark"] .stars {
   margin-bottom: 0.5rem;
 }
 
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--accent);
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
 .footer {
   padding: 2.5rem clamp(1.5rem, 6vw, 6rem) 3.5rem;
   border-top: 1px solid rgba(47, 107, 255, 0.18);
